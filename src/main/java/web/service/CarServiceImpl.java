@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 public class CarServiceImpl implements CarService {
     private static int CARS_COUNT;
     private List<Car> car;
-
     {
         car = new ArrayList<>();
         car.add(new Car(++CARS_COUNT, "BMW", "hatchback", "2.0L"));
